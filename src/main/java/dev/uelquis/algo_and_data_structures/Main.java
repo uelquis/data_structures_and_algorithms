@@ -15,7 +15,7 @@ public class Main {
                 new Node<Integer>(14));
 
         double[] arr = {3, 2, 9, 1};
-        var sorted = BubbleSort.sort(arr, BubbleSort.Order.DESCENDING);
+        var sorted = InsertionSort.sort(arr, SortingOrder.ASCENDING);
 
         System.out.println("unsorted: " + Arrays.toString(arr));
         System.out.println("sorted: " + Arrays.toString(sorted));
