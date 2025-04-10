@@ -1,4 +1,4 @@
-package dev.uelquis.data_structures.binary_tree;
+package dev.uelquis.algo_and_data_structures.binary_tree;
 
 public final class Node <T> {
     public final T key;
