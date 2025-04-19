@@ -3,6 +3,15 @@ package dev.uelquis.algo_and_data_structures;
 public class BubbleSort {
     private BubbleSort() {}
 
+    /*
+    * Complexity: O(n^2)
+    * Not efficient. Better used on small sets of data.
+    *
+    * The algorithm compares pairs of numbers and swaps them if they are not
+    * in the right order. After going through the array, repeat 'til it
+    * is sorted.
+    * */
+
     public static double[] sort(double[] arr, SortingOrder order) {
         double tmp;
         double[] sorted = arr.clone();

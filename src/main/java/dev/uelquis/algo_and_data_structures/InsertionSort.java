@@ -7,6 +7,17 @@ import java.util.stream.Collectors;
 public class InsertionSort {
     private InsertionSort() {}
 
+    /*
+    * Best case complexity: O(n) -> when the array is already sorted.
+    * Average case complexity: O(n^2)
+    * Worst case complexity: o(n^2) -> when the array is in reverse order.
+    *
+    * One of the best algorithms to sort small arrays, it is faster than Quicksort when
+    * sorting small amounts of elements. The algorithm compares the $currentElement to previous
+    * ones that are part of a partially sorted list, then it is sorted.
+    *
+    * */
+
     public static double[] sort(double[] arr, SortingOrder order) {
         int insertIndex;
         double currentValue;

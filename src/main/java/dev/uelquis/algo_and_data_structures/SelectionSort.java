@@ -3,6 +3,15 @@ package dev.uelquis.algo_and_data_structures;
 public class SelectionSort {
     private SelectionSort() {}
 
+    /*
+    * Complexity = O(n^2)
+    *
+    * The algorithm uses two loops to order the array. The outer one controls the
+    * position of the elements and the inner one compares the numbers to find the right
+    * value. It is fast to sort small arrays and terrible for big arrays and does not use
+    * much memory.
+    * */
+
     public static double[] sort(double[] arr, SortingOrder order) {
         double[] sorted = arr.clone();
         double tmp;
