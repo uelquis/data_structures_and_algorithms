@@ -1,7 +1,7 @@
 package dev.uelquis.algo_and_data_structures;
 
 public class QuickSort {
-
+    private QuickSort(){}
     /*
     * Best case complexity: O(n log n) -> when the pivot divides the array into
     *   two equal halves.

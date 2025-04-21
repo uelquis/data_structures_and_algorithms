@@ -1,7 +1,7 @@
 package dev.uelquis.algo_and_data_structures;
 
 public class ShellSort {
-
+    private ShellSort(){}
     /*
      * Best case complexity: O(n (ln n)^2) -> when the array is already sorted.
      * Average case complexity: O(n^1.25)

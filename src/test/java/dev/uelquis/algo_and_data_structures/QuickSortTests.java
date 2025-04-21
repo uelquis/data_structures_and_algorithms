@@ -4,11 +4,12 @@ import java.util.Arrays;
 
 import static dev.uelquis.algo_and_data_structures.Test.isSorted;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.Test;
 
 public class QuickSortTests {
     private final double[] array = {4,2,9,0,7,9,8.5};
 
-    @org.junit.jupiter.api.Test
+    @Test
     void sortAscending() {
         var sorted = QuickSort.sort(array, SortingOrder.ASCENDING);
 
@@ -16,7 +17,7 @@ public class QuickSortTests {
         System.out.println(Arrays.toString(sorted));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void sortDescending() {
         var sorted = QuickSort.sort(array, SortingOrder.DESCENDING);
 

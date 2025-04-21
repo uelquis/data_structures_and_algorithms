@@ -3,7 +3,7 @@ package dev.uelquis.algo_and_data_structures;
 import org.javatuples.Tuple;
 
 public class MergeSort {
-
+    private MergeSort(){}
     /*
     * Complexity: O(n log n)
     *
