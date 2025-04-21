@@ -24,7 +24,7 @@ public class ShellSort {
 
         int size = sorted.length;
 
-        // gap reduced by half every recursive call.
+        // gap reduced by half every iteration.
         for (int gap = size/2; gap > 0; gap /= 2) {
             for (int i = gap; i < size; ++i) {
                 double tmp = sorted[i];
